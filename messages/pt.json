@@ -1,0 +1,57 @@
+{
+    "Nav": {
+        "projects": "Projetos",
+        "about": "Sobre",
+        "contact": "Contato"
+    },
+    "Home": {
+        "role": "Desenvolvedor Full Stack",
+        "experienceWith": "Experiência com",
+        "latestProjects": ["Meus Últimos ", "Projetos"],
+        "aboutTitle": ["Sou um ", "Desenvolvedor Web ", "apaixonado por "],
+        "aboutText": "Com 1 ano de experiência, crio interfaces intuitivas e personalizadas para web. Buscando constantemente novas tecnologias e tendências, garantindo que meus projetos estejam sempre atualizados e alinhados com as necessidades dos usuários.",
+        "yearsExperience": "Ano de experiência",
+        "developedProjects": "Projetos desenvolvidos",
+        "experiencesTitle": "Experiências",
+        "formationsAndMerits": "Formações",
+        "contactTitle": "Gostaria de ter uma conversar?",
+        "contactText": "Deseja discutir uma oportunidade para criar algo incrível? Estou à disposição.",
+        "copyRight": "© 2025 Felipe Donda. Todos os Direitos Reservados."
+    },
+    "Projects": {
+        "ConvertMoney": "O desafio de criar uma aplicação de conversão de moedas, permitindo que os usuários conversem valores entre diferentes moedas com base nas taxas de câmbio mais atualizadas de forma rápida e intuitiva.",
+        "ToDoList": "A To-Do List foi desenvolvida para ajudar o usuário a gerenciar suas tarefas de forma prática. O design limpo e interativo torna fácil adicionar, marcar como concluída ou excluir tarefas.",
+        "devBurger": "O DevBurger Interface é o front-end desenvolvido para oferecer uma experiência moderna e intuitiva no e-commerce DevBurger. Criado com React e estilizado com Styled-Components, ele proporciona uma navegação fluida, responsiva e otimizada para mobile e desktop."
+    },
+    "Experiences": {
+        "KmEmbalagens": {
+            "role": "Encarregado de Seção - KM Embalagens",
+            "period": "Atual"
+        },
+        "ViaMobilidade5e17": {
+            "role": "Operador de Trem - Linhas 5 e 17",
+            "period": "Abril 2023 - Novembro 2024"
+        },
+        "ViaMobilidade8e9": {
+            "role": "Agente de Atendimento e Segurança - Linhas 8 e 9",
+            "period": "Setembro 2021 - Abril 2023"
+        }
+    },
+    "Educations": {
+        "AnhembiMorumbi": {
+            "title": "Inteligência Artificial e Ciência de Dados - Universidade Anhembi Morumbi"
+        },
+        "Uninove": {
+            "course": "Análise e Desenvolvimento de Sistemas - Uninove"
+        },
+        "DevCLub": {
+            "course": "Desenvolvimento Full Stack Pro - DevCLub"
+        }
+    },
+    "Contact": {
+        "subject": "Vamos Conversar?",
+        "body": "Oi, Felipe Donda! Vi seu portfólio e achei incrivel suas ideias. Se tiver um tempinho, vamos conversar?",
+        "button": "Entrar em contato",
+        "copied": "Email copiado!"
+    }
+}

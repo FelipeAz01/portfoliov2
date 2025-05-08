@@ -1,0 +1,57 @@
+{
+    "Nav": {
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "Home": {
+        "role": "Full Stack Developer",
+        "experienceWith": "Experience with",
+        "latestProjects": ["My Latest ", "Projects"],
+        "aboutTitle": ["I'm a ", "Web Developer ", "passionate about "],
+        "aboutText": "With 1 year of experience, I create intuitive and customized web interfaces. I am constantly seeking new technologies and trends to ensure that my projects are always up-to-date and aligned with user needs.",
+        "yearsExperience": "Years of experience",
+        "developedProjects": "Developed projects",
+        "experiencesTitle": "Experiences",
+        "formationsAndMerits": "Formations",
+        "contactTitle": "Would you like to have a conversation?",
+        "contactText": "Want to discuss an opportunity to create something amazing? I'm available.",
+        "copyRight": "© 2025 Felipe Donda. All Rights Reserved."
+    },
+    "Projects": {
+        "ConvertMoney": "The challenge of creating a currency conversion application, allowing users to convert values between different currencies based on the most up-to-date exchange rates in a quick and intuitive way.",
+        "ToDoList": "The To-Do List was developed to help users manage their tasks in a practical way. The clean and interactive design makes it easy to add, mark as completed, or delete tasks.",
+        "devBurger": "The DevBurger Interface is the front-end developed to offer a modern and intuitive experience for the DevBurger e-commerce. Built with React and styled with Styled-Components, it provides smooth, responsive navigation optimized for both mobile and desktop."
+    },
+    "Experiences": {
+        "KmEmbalagens": {
+            "role": "Section Supervisor - KM Embalagens",
+            "period": "Current"
+        },
+        "ViaMobilidade5e17": {
+            "role": "Train Operator - Lines 5 and 17",
+            "period": "April 2023 - November 2024"
+        },
+        "ViaMobilidade8e9": {
+            "role": "Customer Service and Safety Agent - Lines 8 and 9",
+            "period": "September 2021 - April 2023"
+        }
+    },
+    "Educations": {
+        "AnhembiMorumbi": {
+            "title": "Artificial Intelligence and Data Science - Anhembi Morumbi University"
+        },
+        "Uninove": {
+            "course": "Systems Analysis and Development - Uninove"
+        },
+        "DevCLub": {
+            "course": "Full Stack Development Pro - DevCLub"
+        }
+    },
+    "Contact": {
+        "subject": "Let's Talk?",
+        "body": "Hi, Felipe Donda! I saw your portfolio and loved your ideas. If you have some time, let's talk?",
+        "button": "Contact Me",
+        "copied": "Email copied!"
+    }
+}

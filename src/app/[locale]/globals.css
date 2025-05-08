@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --text: #131313;
+  --text-gray: #636363;
+  --background: #FBFBFB;
+  --border: #9A9A9A;
+  --glass: rgba(34, 34, 34, 0.06);
+  --glass-active: rgba(34, 34, 34, 0.1);
+  --gradient-end: rgba(19, 19, 19, 0.3);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root{
+    --text: #FFFFFF;
+    --text-gray: #999999;
+    --background: #121212;
+    --border: #323232;
+    --glass: rgba(255, 255, 255, 0.06);
+    --glass-active: rgba(255, 255, 255, 0.1);
+    --gradient-end: rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* SCROLL CONFIG */
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 0.9vw;
+  background: var(--glass);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--glass-active);
+  border-radius: 6px;
+}
+
+/* ANIMATION */
+@layer utilities{
+  .animation-delay-1000{
+    animation-delay: 1000ms;
+  }
+  .animation-delay-2000{
+    animation-delay: 2000ms;
+  }
+}
+
+/* COMPONENTS */
+.menu-btn{
+  @apply mr-2 bg-glass border-glass border-[1px] w-12 h-12 grid place-items-center rounded-2xl backdrop-blur-3xl hover:bg-glass-active transition-all active:scale-95 place-self-end;
+}
+
+.navbar{
+  @apply absolute md:static mt-2 mr-2 md:mr-0 right-0 flex flex-col md:flex-row gap-10 md:gap-[100px] bg-glass border-glass border-[1px] px-10 py-5 items-center rounded-2xl backdrop-blur-3xl opacity-0 invisible md:visible md:opacity-100 transition-all;
+}
+
+.navbar.active{
+  @apply flex md:flex-row opacity-100 visible;
+}
+
+.navbar-icon{
+  @apply text-2xl text-text hover:text-text-gray transition-colors cursor-pointer;
+}
+
+.btn{
+  @apply px-8 py-4 bg-glass border-glass border-[1px] text-text w-fit place-self-center rounded-2xl hover:bg-glass-active transition-all;
+}
+.spotlight{
+  @apply absolute w-1/6 min-[600px]:w-28 min-[600px]:h-[600px] rounded-full rotate-[25deg] filter blur-2xl sm:blur-3xl -z-50 select-none;
+}
+
+.spotlight-bottom{
+  @apply absolute w-1/6 min-[600px]:w-28 min-[600px]:h-[560px] rounded-full -rotate-[25deg] filter blur-2xl sm:blur-3xl -z-50 select-none;
+}
+
+.project-btn{
+  @apply flex gap-2 items-center px-4 py-2 bg-glass hover:bg-glass-active border-[1px] border-glass rounded-full transition-all w-fit;
+}
+
+.professional-item{
+  @apply flex flex-col min-[500px]:flex-row text-center min-[500px]:text-left items-center gap-2 py-5 border-glass-active border-y-[1px] first:border-none last:border-none;
+}
